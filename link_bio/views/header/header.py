@@ -2,7 +2,7 @@ import reflex as rx
 
 def header() -> rx.Component:
     return rx.vstack(
-        rx.avatar(name="Cata Lobo", size="7"),
+        rx.avatar(fallback="C.L", size="3",color_scheme="gray"),
         rx.text ("@devcat"),
         rx.text ("HOLA vsndgsjdb vbksjbksjb"),
         rx.text("""klvnnfbknornfb vjndfvojafva cjdbgvowb

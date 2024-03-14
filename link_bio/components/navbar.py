@@ -4,7 +4,8 @@ def navbar() -> rx.Component:
     return rx.hstack(
         rx.text(
             "DevCat",
-            height="40px"
+            height="40px",
+            padding_x="30px"
         ),
         position="sticky", #para q esta parte superior quede fija
         bg="blue",
