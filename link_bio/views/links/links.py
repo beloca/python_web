@@ -6,5 +6,6 @@ def links() -> rx.Component:
         link_button("Twitch","https://twitch.tv"),
         link_button("Instagram", "https://instagram.com"),
         link_button("Youtube", "https://youtube.com"),
-        link_button("Otor boton", "https://google.com")
+        link_button("Otro boton", "https://google.com"),
+        width="100%"
     )
