@@ -8,6 +8,7 @@ MAX_WIDTH="600px"
 #Sizes
 class Size(Enum):
     SMALL="0.5em"
+    MEDIUM="0.8em"
     DEFAULT="1em"
     BIG="2em"
 
@@ -25,3 +26,18 @@ BASE_STYLE={ #se añade en index, en rx.App para q coja este estilo
         "_hover":{} #para q no tenga nada
     }
 }
+
+title_style=dict(
+    size="6",
+    width="100%",
+    padding_top=Size.DEFAULT.value
+)
+button_title_style= dict ( #se define asi porq no es componente q exista,sino estilo propio
+    font_size=Size.DEFAULT.value
+)
+button_body_style=dict( #lo añadimos en link_button llamando a esta variable
+    font_size=Size.MEDIUM.value
+)
+
+
+

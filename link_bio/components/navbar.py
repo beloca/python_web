@@ -1,14 +1,15 @@
 import reflex as rx
+from link_bio.styles.styles import Size as Size
 
 def navbar() -> rx.Component:
     return rx.hstack(
         rx.text(
-            "DevCat",
-            height="40px",
-            padding_x="30px"
+            "DevCat"
         ),
         position="sticky", #para q esta parte superior quede fija
-        bg="blue",
-        padding_y="8px",
-        z_index="999" #asegurarnos q siempre este en la parte superior 
+        bg="lightgray",
+        padding_x=Size.DEFAULT.value,
+        padding_y=Size.SMALL.value,
+        z_index="999", #asegurarnos q siempre este en la parte superior 
+        top="0" #indica que es cero a la parte superior, por eso bajas barra pero no se mueve la navbar
     )
