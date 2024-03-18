@@ -10,5 +10,6 @@ def footer() -> rx.Component:
             is_external=True
         ),
         rx.text("vnwejngejnnf fjebfbe"),
-        padding_y="30px"
+        padding_y="30px",
+        align="center"
     )

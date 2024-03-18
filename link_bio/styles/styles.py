@@ -28,7 +28,6 @@ BASE_STYLE={ #se añade en index, en rx.App para q coja este estilo
 }
 
 title_style=dict(
-    size="6",
     width="100%",
     padding_top=Size.DEFAULT.value
 )
