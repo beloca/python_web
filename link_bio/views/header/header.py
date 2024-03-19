@@ -20,8 +20,9 @@ def header() -> rx.Component:
                     link_icon("https://instagram.com/beloca_4"), #traemos el icono creado y hacemos hstack para horizontal
                     link_icon("https://instagram.com/beloca_4"),
                 ),
-                align_items="start"
-            )
+                align_items="start",
+            ),
+            spacing=="5"
         ),
         rx.flex( #separar elementos dentros de la misma forma. un layout
             info_text("+1", "año experiencia"),
