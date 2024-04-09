@@ -1,6 +1,8 @@
 import reflex as rx
 from link_bio.components.link_button import link_button
 from link_bio.components.title import title
+from link_bio.styles.styles import Size as Size
+
 def links() -> rx.Component:
     return rx.vstack(
         title("Primer reflex"),
@@ -46,5 +48,5 @@ def links() -> rx.Component:
             "https://google.com"
         ),
         width="100%",
-        spacing="3"
+        spacing=Size.MEDIUM.value
     )
