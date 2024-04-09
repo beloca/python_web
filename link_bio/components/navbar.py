@@ -3,8 +3,8 @@ from link_bio.styles.styles import Size as Size
 
 def navbar() -> rx.Component:
     return rx.hstack(
-        rx.text(
-            "DevCat"
+        rx.image(
+            src="logo_ojo.png", height="100px"
         ),
         position="sticky", #para q esta parte superior quede fija
         bg="lightgray",

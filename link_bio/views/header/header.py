@@ -10,7 +10,7 @@ def header() -> rx.Component:
             rx.vstack(
                 rx.heading (
                     "Cata Lobo",
-                    size="6"
+                    size="6",
                 ),
                 rx.text (
                     "@devcat",
@@ -22,7 +22,7 @@ def header() -> rx.Component:
                 ),
                 align_items="start",
             ),
-            spacing=="5"
+            spacing="5"
         ),
         rx.flex( #separar elementos dentros de la misma forma. un layout
             info_text("+1", "año experiencia"),
@@ -37,5 +37,5 @@ def header() -> rx.Component:
                 mvndlvnañsldnbñaljsv ajdvajbvñaj kjsbvajç
                 nvaondva mvakjbvoa akñ vbñajb """),
         spacing="5", #espacio que dejamos entre cada uno de los componentes
-        align_items="start"   
+        align_items="start", 
     )

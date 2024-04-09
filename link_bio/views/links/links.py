@@ -46,4 +46,5 @@ def links() -> rx.Component:
             "https://google.com"
         ),
         width="100%",
+        spacing="3"
     )
