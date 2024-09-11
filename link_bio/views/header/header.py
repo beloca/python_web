@@ -2,6 +2,8 @@ import reflex as rx
 from link_bio.components.link_icon import link_icon
 from link_bio.components.info_text import info_text
 from link_bio.styles.styles import Size as Size
+from link_bio.styles.colors import TextColor as TextColor
+import datetime
 
 def header() -> rx.Component:
     return rx.vstack(
@@ -33,9 +35,14 @@ def header() -> rx.Component:
             width="100%" #si ponemos spacer pero no decimos q ocupe el 100% no hará nada
         ),
 
-        rx.text("""klvnnfbknornfb vjndfvojafva cjdbgvowb
-                mvndlvnañsldnbñaljsv ajdvajbvñaj kjsbvajç
-                nvaondva mvakjbvoa akñ vbñajb """),
+        rx.text(
+            f"""
+            klvnnfbknornfb vjndfvojafva cjdbgvowb
+            mvndlvnañsldnbñaljsv ajdvajbvñaj kjsbvajç
+            nvaondva mvakjbvoa akñ vbñajb 
+            """,
+            color=TextColor.BODY.value
+        ),
         spacing="5", #espacio que dejamos entre cada uno de los componentes
         align_items="start", 
     )

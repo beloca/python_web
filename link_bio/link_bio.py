@@ -36,4 +36,4 @@ app = rx.App(
     style=styles.BASE_STYLE
 )
 app.add_page(index) #para q la app añada esta pagina
-app.compile()#para que compile y se ejecute
+app._compile()#para que compile y se ejecute
