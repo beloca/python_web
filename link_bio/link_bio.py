@@ -23,7 +23,7 @@ def index() -> rx.Component:
                 links(),
                 footer(),
                 max_width=styles.MAX_WIDTH, #variable q hemos creado en styles
-                width="100%",
+                width="50%",
                 margin_y=Size.BIG.value ,
                              
             ),

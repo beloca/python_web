@@ -12,10 +12,10 @@ def footer() -> rx.Component:
         ),
         rx.text(
             "vnwejngejnnf fjebfbe eibeub  jnvsbs bvw",
-            font_size=Size.MEDIUM.value,
+            font_size=Size.SMALL.value,
         ),
         rx.image(src="logo_ojo2.png", height="150px"),
         margin_bottom=Size.BIG.value,
         padding_y="30px",
-        align="center"
+        align_items="center"
     )

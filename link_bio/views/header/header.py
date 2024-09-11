@@ -30,7 +30,7 @@ def header() -> rx.Component:
             info_text("+1", "año experiencia"),
             rx.spacer(),
             info_text("+1", "año experiencia"),
-            width="100%" #si ponemos sapcer pero no decimos q ocupe el 100% no hará nada
+            width="100%" #si ponemos spacer pero no decimos q ocupe el 100% no hará nada
         ),
 
         rx.text("""klvnnfbknornfb vjndfvojafva cjdbgvowb
